@@ -24,7 +24,7 @@ export const personalDetails = {
   email: "zaibi4052@gmail.com",
   phone: "+92 317 7395554",
   location: "Gujrat, Punjab, Pakistan",
-  github: "https://github.com/Zohaib1127",
+  github: "https://github.com/zohaib-027",
   linkedin: "https://linkedin.com/in/zohaib-butt-9798b0375",
   cgpa: "2.99 / 4.00",
   education: "BS Software Engineering (2022 - 2026)",
@@ -46,7 +46,7 @@ export const navItems = [
 export const socialLinks = [
   { 
     label: "GitHub", 
-    href: "https://github.com/Zohaib1127", 
+    href: "https://github.com/zohaib-027", 
     icon: Github 
   },
   { 
@@ -173,7 +173,7 @@ export const projects = [
     gradient: "from-amber-600 to-red-900",
     glow: "amber",
     demoUrl: "https://wahabauto.netlify.app/",
-    githubUrl: "https://github.com/Zohaib1127",
+    githubUrl: "https://github.com/zohaib-027",
   },
 ];
 
