@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import { Section } from "../components/Section";
 import { TiltCard } from "../components/TiltCard";
@@ -68,16 +68,16 @@ export function Projects() {
                 </div>
               </div>
 
-              {/* Action Button: Direct GitHub Repository Link */}
+              {/* Action Button: Live Demo Link */}
               <div className="mt-8 flex">
                 <a 
-                  href={project.githubUrl || "https://github.com/Zohaib1127"} 
+                  href={project.demoUrl} 
                   target="_blank" 
                   rel="noreferrer" 
                   className="compact-button compact-button-muted flex w-full items-center justify-center gap-2 sm:w-auto"
                 >
-                  <Github size={17} />
-                  <span>View Repository</span>
+                  <ExternalLink size={17} />
+                  <span>Live Demo</span>
                 </a>
               </div>
             </TiltCard>

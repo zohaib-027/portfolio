@@ -149,41 +149,32 @@ export const certifications = [
 // All Projects
 export const projects = [
   {
-    title: "SettleIn - Student Support Platform",
-    description:
-      "Architected and implemented a full-stack web application tailored for international student support services. Integrated secure JWT authentication, robust RESTful APIs, and MongoDB for high-availability data flow.",
-    tech: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT Auth", "Tailwind CSS"],
-    githubUrl: "https://github.com/Zohaib1127",
-    gradient: "from-cyan-400 via-blue-500 to-violet-600",
-    glow: "rgba(68, 216, 255, 0.34)"
+    title: "SettleIn",
+    description: "Comprehensive platform helping users settle into new cities with ease.",
+    tech: ["MERN Stack", "React", "Node.js", "MongoDB"],
+    gradient: "from-blue-600 to-indigo-900",
+    glow: "blue",
+    demoUrl: "https://settlein27.netlify.app/",
+    githubUrl: "https://github.com/Zohaib1127", // Apni actual repo link rakhein agar hai
   },
   {
-    title: "School Management System",
-    description:
-      "Engineered a role-based administrative management system using the MERN Stack. Implemented full CRUD functionality for managing students, teachers, and course records with a responsive dashboard.",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
+    title: "IshqeAura",
+    description: "Modern, aesthetic web application with dynamic styling and interactive UI.",
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    gradient: "from-pink-600 to-rose-900",
+    glow: "pink",
+    demoUrl: "https://ishqeaura.netlify.app/",
     githubUrl: "https://github.com/Zohaib1127",
-    gradient: "from-violet-400 via-fuchsia-500 to-cyan-500",
-    glow: "rgba(168, 85, 247, 0.32)"
   },
   {
-    title: "Photo Editor Application",
-    description:
-      "Designed and developed a feature-rich desktop GUI application in MATLAB for digital image manipulation, dynamic enhancement, contrast adjustment, and color filtering algorithms.",
-    tech: ["MATLAB", "Image Processing", "Desktop GUI"],
+    title: "Wahab Autos",
+    description: "Automobile service & showcase web platform tailored for business management.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    gradient: "from-amber-600 to-red-900",
+    glow: "amber",
+    demoUrl: "https://wahabauto.netlify.app/",
     githubUrl: "https://github.com/Zohaib1127",
-    gradient: "from-emerald-400 via-teal-500 to-blue-600",
-    glow: "rgba(16, 185, 129, 0.3)"
   },
-  {
-    title: "Face Detection System",
-    description:
-      "Developed an automated real-time face detection solution leveraging Computer Vision concepts in MATLAB to process visual input streams and frame facial regions accurately.",
-    tech: ["MATLAB", "Computer Vision", "Signal Processing"],
-    githubUrl: "https://github.com/Zohaib1127",
-    gradient: "from-amber-400 via-orange-500 to-rose-600",
-    glow: "rgba(245, 158, 11, 0.3)"
-  }
 ];
 
 // Timeline
